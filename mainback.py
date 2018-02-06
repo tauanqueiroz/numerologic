@@ -3,7 +3,7 @@
 
 print('{:=^100}'.format('   NUMEROLOGIC   '))
 
-print('Numerologic 1.0 (Fev 05 2018, 21:12')
+print('Numerologic 1.0.1 (Fev 06 2018, 11:11')
 
 print('Digite "help", "credits" ou "license" para mais informações. Digite "exit" para sair.')
 
@@ -42,7 +42,7 @@ def numerologic():
     totalo = int(a + b + c + d + e + f + g + h + i + j + k + l1 + m + n + o + p + q + r + s + t + u + v + w + x + y + z)
 
     if totalo == 11 or totalo == 22 or totalo < 10:
-        redukto = int(totalo)
+        redukto = totalo
     else:
         while totalo > 9:
             unueco = totalo // 1 % 10
@@ -672,7 +672,7 @@ def numerologicint():
     totalo = int(a + e + i + o + u)
 
     if totalo == 11 or totalo == 22 or totalo < 10:
-        redukto = int(totalo)
+        redukto = totalo
     else:
         while totalo > 9:
             unueco = totalo // 1 % 10
@@ -686,37 +686,40 @@ def numerologicint():
 
 def rezolucioint():
 
-    if numerologicint() == 1:
-        nomoint1()
+    if numerologicint() == 0:
+        print('\nSeu nome não tem vogais?'.upper())
     else:
-        if numerologicint() == 2:
-            nomoint2()
+        if numerologicint() == 1:
+            nomoint1()
         else:
-            if numerologicint() == 3:
-                nomoint3()
+            if numerologicint() == 2:
+                nomoint2()
             else:
-                if numerologicint() == 4:
-                    nomoint4()
+                if numerologicint() == 3:
+                    nomoint3()
                 else:
-                    if numerologicint() == 5:
-                        nomoint5()
+                    if numerologicint() == 4:
+                        nomoint4()
                     else:
-                        if numerologicint() == 6:
-                            nomoint6()
+                        if numerologicint() == 5:
+                            nomoint5()
                         else:
-                            if numerologicint() == 7:
-                                nomoint7()
+                            if numerologicint() == 6:
+                                nomoint6()
                             else:
-                                if numerologicint() == 8:
-                                    nomoint8()
+                                if numerologicint() == 7:
+                                    nomoint7()
                                 else:
-                                    if numerologicint() == 9:
-                                        nomoint9()
+                                    if numerologicint() == 8:
+                                        nomoint8()
                                     else:
-                                        if numerologicint() == 11:
-                                            nomoint11()
+                                        if numerologicint() == 9:
+                                            nomoint9()
                                         else:
-                                            nomoint22()
+                                            if numerologicint() == 11:
+                                                nomoint11()
+                                            else:
+                                                nomoint22()
 
 
 def nomoint1():
@@ -1031,7 +1034,7 @@ def numerologicext():
     totalo = int(b + c + d + f + g + h + j + k + l1 + m + n + p + q + r + s + t + v + w + x + y + z)
 
     if totalo == 11 or totalo == 22 or totalo < 10:
-        redukto = int(totalo)
+        redukto = totalo
     else:
         while totalo > 9:
             unueco = totalo // 1 % 10
@@ -1045,37 +1048,40 @@ def numerologicext():
 
 def rezolucioext():
 
-    if numerologicext() == 1:
-        nomoext1()
+    if numerologicext() == 0:
+        print('\nSeu nome não tem consoantes.'.upper())
     else:
-        if numerologicext() == 2:
-            nomoext2()
+        if numerologicext() == 1:
+            nomoext1()
         else:
-            if numerologicext() == 3:
-                nomoext3()
+            if numerologicext() == 2:
+                nomoext2()
             else:
-                if numerologicext() == 4:
-                    nomoext4()
+                if numerologicext() == 3:
+                    nomoext3()
                 else:
-                    if numerologicext() == 5:
-                        nomoext5()
+                    if numerologicext() == 4:
+                        nomoext4()
                     else:
-                        if numerologicext() == 6:
-                            nomoext6()
+                        if numerologicext() == 5:
+                            nomoext5()
                         else:
-                            if numerologicext() == 7:
-                                nomoext7()
+                            if numerologicext() == 6:
+                                nomoext6()
                             else:
-                                if numerologicext() == 8:
-                                    nomoext8()
+                                if numerologicext() == 7:
+                                    nomoext7()
                                 else:
-                                    if numerologicext() == 9:
-                                        nomoext9()
+                                    if numerologicext() == 8:
+                                        nomoext8()
                                     else:
-                                        if numerologicext() == 11:
-                                            nomoext11()
+                                        if numerologicext() == 9:
+                                            nomoext9()
                                         else:
-                                            nomoext22()
+                                            if numerologicext() == 11:
+                                                nomoext11()
+                                            else:
+                                                nomoext22()
 
 
 def nomoext1():
@@ -1236,10 +1242,10 @@ def nomoext6():
         '''\nSeu comportamento está acima de qualquer suspeita.'''
         '''\nAs pessoas a vêem como um exemplo de honestidade e confiabilidade.'''
         '''\nÉ equilibrada, procurando agir sempre com imparcialidade. Graças a esse estilo de vida, dificilmente'''
-        '''tira conclusões precipitadas sobre os outros.'''
-        '''Dá valor ao lar e à família.'''
-        '''No casamento, é super dedicada.'''
-        '''Também é uma excelente anfitriã.'''
+        '''\ntira conclusões precipitadas sobre os outros.'''
+        '''\nDá valor ao lar e à família.'''
+        '''\nNo casamento, é super dedicada.'''
+        '''\nTambém é uma excelente anfitriã.'''
     )
     print('\nFonte: linhadasaguas.com.br/numero-da-personalidade')
 
