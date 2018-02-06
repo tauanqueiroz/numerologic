@@ -9,6 +9,7 @@ print('Digite "help", "credits" ou "license" para mais informações. Digite "ex
 
 ripetilo = 0
 
+
 def numerologic():
 
     a = int(nomo.count('a') * 1)
