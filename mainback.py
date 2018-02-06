@@ -1371,6 +1371,7 @@ def nomoext22():
         '''\n       numerologianasuaessencia.blogspot.com.br/2010/10/estudo-das-consoantes-no-nome'''
     )
 
+
 while ripetilo == 0:
     nomo = str(input('\nNome completo [sem acentuação]: ')).lower().strip()
     if nomo == 'license':
